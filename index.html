@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rumah Ibu — Link.tree</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Work+Sans:wght@400;500;600&family=Space+Mono:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --kraft:#EFE6D3;
+    --paper:#FBF6EA;
+    --ocean:#4A3220;
+    --gold:#B8823C;
+    --chili:#7C4A26;
+    --crisp:#4A3220;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    min-height:100vh;
+    background:
+      radial-gradient(circle at 20% 10%, rgba(184,130,60,0.18), transparent 45%),
+      radial-gradient(circle at 85% 85%, rgba(74,50,32,0.15), transparent 45%),
+      var(--kraft);
+    font-family:'Work Sans', sans-serif;
+    color:var(--crisp);
+    display:flex; justify-content:center;
+    padding:56px 20px 40px;
+  }
+  .card{width:100%; max-width:400px; text-align:center;}
+  .avatar{
+    width:110px; height:110px; margin:0 auto 18px;
+    background:linear-gradient(155deg,#D9AE6E,var(--gold) 55%,#8C5E2C);
+    border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    font-family:'Pacifico',cursive; font-weight:400; color:var(--paper); font-size:1.5rem;
+    overflow:hidden;
+  }
+  .avatar img{
+    width:100%; height:100%;
+    object-fit:cover;
+  }
+  h1{font-family:'Pacifico',cursive; font-weight:400; font-size:2.1rem; color:var(--ocean); margin-bottom:6px;}
+  .tagline{font-size:0.9rem; color:var(--crisp); opacity:0.75; margin-bottom:32px;}
+  .links{display:flex; flex-direction:column; gap:14px;}
+  .linkbtn{
+    display:flex; align-items:center; gap:14px;
+    background:var(--paper); border:1px solid rgba(74,50,32,0.12);
+    padding:16px 20px; font-weight:600; font-size:0.98rem; color:var(--ocean);
+    box-shadow:0 2px 0 rgba(74,50,32,0.08);
+    transition:transform .15s ease, box-shadow .15s ease;
+  }
+  .linkbtn:hover{transform:translateY(-3px); box-shadow:0 6px 14px rgba(74,50,32,0.15);}
+  .linkbtn .icon{
+    width:34px; height:34px; flex-shrink:0; border-radius:50%;
+    display:flex; align-items:center; justify-content:center; font-size:1.05rem;
+    background:var(--kraft);
+  }
+  .linkbtn.primary{background:var(--chili); color:var(--paper); box-shadow:0 3px 0 #4A2C15;}
+  .linkbtn.primary .icon{background:rgba(251,246,234,0.2);}
+  .foot{margin-top:36px; font-family:'Space Mono',monospace; font-size:0.72rem; color:var(--crisp); opacity:0.55;}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <clipPath id="scallopClip" clipPathUnits="objectBoundingBox">
+      <path d="M0.5,0
+        C0.56,0 0.6,0.03 0.62,0.07
+        C0.68,0.04 0.75,0.05 0.79,0.1
+        C0.84,0.09 0.9,0.13 0.91,0.19
+        C0.96,0.21 0.99,0.27 0.98,0.33
+        C1.0,0.38 1.0,0.44 0.96,0.48
+        C1.0,0.53 1.0,0.6 0.95,0.63
+        C0.98,0.69 0.95,0.76 0.9,0.78
+        C0.9,0.84 0.85,0.89 0.79,0.89
+        C0.77,0.94 0.71,0.98 0.65,0.97
+        C0.62,1.0 0.56,1.0 0.5,1.0
+        C0.44,1.0 0.38,1.0 0.35,0.97
+        C0.29,0.98 0.23,0.94 0.21,0.89
+        C0.15,0.89 0.1,0.84 0.1,0.78
+        C0.05,0.76 0.02,0.69 0.05,0.63
+        C0.0,0.6 0.0,0.53 0.04,0.48
+        C0.0,0.44 0.0,0.38 0.02,0.33
+        C0.01,0.27 0.04,0.21 0.09,0.19
+        C0.1,0.13 0.16,0.09 0.21,0.1
+        C0.25,0.05 0.32,0.04 0.38,0.07
+        C0.4,0.03 0.44,0 0.5,0 Z"/>
+    </clipPath>
+  </defs>
+</svg>
+
+<div class="card">
+  <div class="avatar"><img src="logo-rumahibu.jpg" alt="Logo Rumah Ibu"></div>
+  <h1>Rumah Ibu</h1>
+  <div class="tagline">Tiada Sukses tanpa Do'a Ibu</div>
+
+  <div class="links">
+    <a class="linkbtn primary" href="https://wa.me/6285759760048" target="_blank">
+      <span class="icon">💬</span> Pesan via WhatsApp
+    </a>
+    <a class="linkbtn" href="landingpage-rumahibu.html">
+      <span class="icon">📖</span> Lihat Katalog Produk
+    </a>
+    <a class="linkbtn" href="https://www.instagram.com/umkm.rumah.ibu/" target="_blank">
+      <span class="icon">📷</span> Instagram @umkm.rumah.ibu
+    </a>
+    <a class="linkbtn" href="https://www.tiktok.com/@umkm.rumah.ibu" target="_blank">
+      <span class="icon">🎵</span> TikTok @umkm.rumah.ibu
+    </a>
+    <a class="linkbtn" href="https://shopee.co.id/umkm.rumah.ibu" target="_blank">
+      <span class="icon">🛒</span> Belanja di Shopee
+    </a>
+    <a class="linkbtn" href="https://maps.app.goo.gl/58pLDhfs37cJTtsDA?g_st=aw" target="_blank">
+      <span class="icon">📍</span> Lokasi di Google Maps
+    </a>
+  </div>
+
+  <div class="foot">KKN — Digitalisasi UMKM Desa Cintaratu</div>
+</div>
+
+</body>
+</html>
